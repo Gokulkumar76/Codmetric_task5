@@ -6,7 +6,7 @@ def get_winner(user, computer):
     elif (user == "rock" and computer == "scissors") or \
          (user == "scissors" and computer == "paper") or \
          (user == "paper" and computer == "rock"):
-        return "You win! 🎉"
+        return "You win!"
     else:
         return "Computer wins! 💻"
 
